@@ -1,6 +1,6 @@
 package ch.bbw.zork;
 
-public class Z {
+public class Zork2Game {
 
 	public static void main(String[] args) {
 		Game zorkgame = new Game();
