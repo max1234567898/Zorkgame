@@ -6,7 +6,6 @@ public class Item {
     private int weight;
 
     public String getName() {
-
         return name;
     }
 
