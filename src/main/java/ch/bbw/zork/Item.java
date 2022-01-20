@@ -14,7 +14,6 @@ public class Item {
     }
 
     public String getDescription() {
-
         return description;
     }
 
@@ -23,7 +22,6 @@ public class Item {
     }
 
     public int getWeight() {
-
         return weight;
     }
 
