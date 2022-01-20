@@ -3,7 +3,7 @@ package ch.bbw.zork;
 public class Item {
 	private String name;
 	private String description;
-	private int weight;
+	private float weight;
 	
 	public String getName() {
 		return name;
@@ -15,10 +15,10 @@ public class Item {
 	public void setDescription(String description) {
 		this.description = description;
 	}
-	public int getWeight() {
+	public float getWeight() {
 		return weight;
 	}
-	public void setWeight(int weight) {
+	public void setWeight(float weight) {
 		this.weight = weight;
 	}
 
