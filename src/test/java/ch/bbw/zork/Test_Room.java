@@ -3,6 +3,8 @@ package ch.bbw.zork;
 import org.junit.Assert;
 import org.junit.Test;
 
+import java.util.ArrayList;
+
 public class Test_Room {
     @Test
     public void putTest() {
@@ -27,5 +29,16 @@ public class Test_Room {
 
       //Assert
         Assert.assertEquals("lab, a lecture theatre in A block", outside.nextRoom("east").shortDescription());
+    }
+
+    @Test
+    public void addAndGetItems_Test() {
+        Room room = new Room("Test Room");
+        Item item = new Item();
+        item.setName("Test Item");
+
+        room.add(item);
+
+        Assert.assertEquals(item, room.getItem("Test Item"));
     }
 }
